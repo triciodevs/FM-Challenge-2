@@ -1,0 +1,321 @@
+     /* .attribution {
+       font-size: 11px;
+       text-align: center;
+     }
+
+     .attribution a {
+       color: hsl(228, 45%, 44%);
+     } */
+
+
+     * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+     }
+
+
+     body {
+       font-family: Figtree;
+       line-height: 1.6;
+       background-color: #f4d04e;
+
+
+
+
+     }
+
+
+     .main-container {
+       max-width: 1400px;
+       margin: 0 auto;
+
+       /* padding: 20px; */
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+
+
+     }
+
+
+     .card {
+       padding: 16px 16px 30px 16px;
+
+       margin: 180px;
+       width: 390px;
+       border: 0.7px solid black;
+       border-radius: 15px;
+
+       box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+       background-color: #fff;
+
+     }
+
+     .illustrated-img {
+       /* max-width: 380px; */
+       width: 100%;
+       display: inline-block;
+       margin-bottom: 14px;
+       /* padding: ; */
+       border-radius: 12px;
+
+
+
+     }
+
+     .header {
+       padding-left: 12px;
+       padding-top: 3px;
+       padding-bottom: 3px;
+       background-color: #f4d04e;
+       width: 80px;
+       border-radius: 5px;
+       margin-left: 11px;
+
+       text-align: left;
+     }
+
+     .header-1 {
+       font-weight: bolder;
+       padding: 1.5px;
+
+     }
+
+
+     .published {
+       margin: 10px;
+       font-size: 14px;
+     }
+
+     .hyperlink {
+       text-decoration: none;
+       display: inline-block;
+       margin-bottom: 12px;
+
+
+     }
+
+     .paragraph {
+       margin-bottom: 20px;
+       margin-left: 11px;
+
+       color: hsl(0, 0%, 42%);
+
+
+     }
+
+     .header-2 {
+       margin-left: 11px;
+       font-weight: bolder;
+       font-size: 22px;
+
+     }
+
+     .header-2 a {
+       color: hsl(0, 0%, 7%);
+       /* font-weight: 700; */
+     }
+
+
+     .header-2 a:hover {
+       color: hsl(47, 88%, 63%);
+     }
+
+     .second-span {
+       display: flex;
+       align-items: center;
+       margin-left: 11px;
+
+       gap: 20px;
+       font-weight: bold;
+
+
+
+     }
+
+
+     .image-of-author {
+       max-width: 30px;
+       /* margin-left: 11px; */
+
+     }
+
+
+     /* MOBILE FORMAT */
+
+     /* for laptops */
+
+     /* 
+     @media (max-width: 1313px) {
+
+       .container {
+         width: 100px;
+         padding: 10px;
+       }
+     } */
+
+     /* for huge tablets */
+     /* 
+
+     @media (max-width: 1167px) {
+       .container {
+         width: 120px;
+         padding: 5px;
+       }
+     } */
+
+
+     /* for tablets */
+
+
+     @media (max-width: 773px) {
+
+       .container {
+         width: 1100px;
+         padding: 20px;
+
+
+         /* flex-direction: column; */
+       }
+
+
+       .hyperlink {
+         font-size: 16px;
+       }
+
+
+       .card {
+         width: 320px;
+       }
+     }
+
+
+     /* for phones */
+
+     @media (max-width: 651px) {
+
+       .main-container {
+         width: 695px;
+         padding: 16px;
+
+         /* margin: 50px; */
+
+         /* flex-direction: column; */
+
+
+
+       }
+
+
+       .card {
+         width: 310px;
+       }
+
+
+
+       /* .card {
+         width: 50px;
+       } */
+
+
+     }
+
+     @media (max-width: 600px) {
+
+       .main-container {
+         width: 500px;
+         padding: 15px;
+
+         flex-direction: column;
+       }
+
+
+
+       .card {
+         width: 300px;
+       }
+     }
+
+
+
+     @media (max-width: 425px) {
+
+       .main-container {
+         width: 400px;
+         padding: 17px;
+       }
+
+
+
+       .card {
+         width: 315px;
+       }
+     }
+
+
+     @media (max-width: 410px) {
+
+       .main-container {
+         width: 360px;
+         padding: 16px;
+
+         /* margin: 50px; */
+
+         /* flex-direction: column; */
+
+
+
+       }
+
+
+       .card {
+         width: 310px;
+       }
+
+
+
+       /* .card {
+         width: 50px;
+       } */
+
+
+     }
+
+
+     @media (max-width: 375px) {
+
+       .main-container {
+         width: 400px;
+         padding: 15px;
+
+
+         flex-direction: column;
+       }
+
+
+       .card {
+         width: 300px;
+
+       }
+
+
+       .hyperlink {
+         font-size: 17px;
+       }
+
+
+
+     }
+
+     /* 
+     @media (max-width: 320px) {
+       .main-container {
+         width: 80px;
+         padding: 15px;
+
+         margin: 40px; */
+
+     /* flex-direction: column; */
